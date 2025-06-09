@@ -4,7 +4,7 @@ import joblib
 # 모델 불러오기
 @st.cache_resource
 def load_model():
-    return joblib.load('/content/review_model.pkl')
+    return joblib.load('review_model.pkl')
 
 model = load_model()
 
